@@ -1,5 +1,5 @@
 {
-  "name":"VoxariaLauncher",
+  "name": "voxaria-launcher",
   "version": "2.2.1",
   "productName": "VoxariaLauncher",
   "description": "Launcher pour Voxaria ",
@@ -12,7 +12,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-       "start": "electron .js .",
+       "start": "electron .",
     "dist": "electron-builder build",
     "dist:win": "npm run dist -- -w",
     "dist:mac": "npm run dist -- -m",
